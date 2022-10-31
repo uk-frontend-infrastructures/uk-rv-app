@@ -1,0 +1,24 @@
+{
+  "name": "uk-rv-app",
+  "version": "1.0.0",
+  "description": "快速搭建vue3项目结构",
+  "main": "index.js",
+  "bin": {
+    "uk-rv-app": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "install": "^0.13.0",
+    "ora": "^5.4.1"
+  }
+}
